@@ -21,3 +21,43 @@ ENEMIES
 each enemy (specifically bosses) will be created in the level functions
 
 there should be an enemy class that all enemies can inherit from
+
+a few different types of enemies (each level different theme?)
+
+enemies have two different options attack and special ability(unique for each enemy type)
+
+each enemy has a goofy ass name from a random name generator 
+
+enemy has a chance to drop an item, and this chance is lower as level increases
+
+#############################
+PLAYER 
+
+player has 4 stats HP, DEFENSE, ATTACK, LUCK
+
+player has a level that goes up with XP from killing enemies
+
+upon level up gets to assign a skillpoint that increases stat by x%
+
+players inventory has the option to be viewed after killing an enemy or pressing a specific key?
+
+players may obtain consumables that can be used in battle
+
+player has the option to use consumable or attack while in combat
+
+player HP resets after each level but not after killing an enemy 
+
+############################### 
+LEVEL ANATOMY 
+
+each level will consist of X amount of enemies that increases with each level (adds difficulty)
+
+each level has a minimum of one rest stop where u can increase attack stat or regenerate x% of missing HP 
+
+each level is capped off with a unique boss that has a delayed special move (can only be used after x amount of turns?)
+
+each boss drops 3 artifacts and u have to pick one these artifacts all have a unique bonus 
+
+each level has a unique theme with a specific type of enemy consistent throughout all fights
+
+there is at least 1 fight in each level where the player has to fight multiple enemies
