@@ -8,3 +8,16 @@ Ideas for the game:
 #player can die ---- player has HP
 #player can kill foes ---- player deals damage
 #player can select a name for themselves
+
+
+##########################
+Levels will be made in functions
+Starting with Level 1
+
+
+
+##############################
+ENEMIES
+each enemy (specifically bosses) will be created in the level functions
+
+there should be an enemy class that all enemies can inherit from
