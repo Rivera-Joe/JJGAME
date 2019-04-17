@@ -1,0 +1,10 @@
+Ideas for the game:
+#possibly change the name to something more adventure-like
+#player may choose from different roles (mage, archer, knight, etc.)
+#items found throughout the game
+#player has an inventory
+#player can manage their inventory (add, drop, use items)
+
+#player can die ---- player has HP
+#player can kill foes ---- player deals damage
+#player can select a name for themselves
