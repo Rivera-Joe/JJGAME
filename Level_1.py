@@ -32,8 +32,8 @@ def levelOne():
        p1 = Player(name, Assassin, aHP, aAD, aDef)
     else:
        p1 = Player(name, Knight, kHP, kAD, kDef)
-
-print(p1.role)
+role = 'temp'
+print(p1.role) 
 
 levelOne()
 
