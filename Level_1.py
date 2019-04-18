@@ -33,7 +33,9 @@ def levelOne():
     else:
        p1 = Player(name, Knight, kHP, kAD, kDef)
 
-print(p1.role)
+    print(p1.role)
+
+
 
 levelOne()
 
