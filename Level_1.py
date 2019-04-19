@@ -3,7 +3,8 @@
 #Joe
 
 #Import player class
-from Player_Class import Player
+import Player_Class
+
 def levelOne():
 #stats for Knight
     Knight = "Knight"
@@ -32,15 +33,10 @@ def levelOne():
        p1 = Player(name, Assassin, aHP, aAD, aDef)
     else:
        p1 = Player(name, Knight, kHP, kAD, kDef)
-<<<<<<< HEAD
-role = 'temp'
-print(p1.role) 
-=======
-
-    print(p1.role)
 
 
->>>>>>> f506d09b6be105693bb819b3d8a27fc4c8892f32
+
+#print(Player_Class.role)
 
 levelOne()
 
