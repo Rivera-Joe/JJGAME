@@ -32,7 +32,6 @@ def levelOne():
 
     # gets name for player
     name = input("So you're back again, eh? What was your name again?\n")
-    print('hello ' + name)
 
     # make sure player chooses correct role
     while (True):
@@ -50,6 +49,5 @@ def levelOne():
         print('you are a knight')
 
 
-    print(p1.role)
 
 levelOne()
