@@ -8,12 +8,14 @@ Ideas for the game:
 #player can die ---- player has HP
 #player can kill foes ---- player deals damage
 #player can select a name for themselves
+#player should be able to save their progress and return to where they stopped
+#this can be done after the game is finished -- finish the game before coding a save/load function
 
 
 ##########################
 Levels will be made in functions
 Starting with Level 1
-
+Levels will be imported and ran in the main file
 
 
 ##############################
