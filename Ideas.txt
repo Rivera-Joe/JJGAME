@@ -63,3 +63,5 @@ each boss drops 3 artifacts and u have to pick one these artifacts all have a un
 each level has a unique theme with a specific type of enemy consistent throughout all fights
 
 there is at least 1 fight in each level where the player has to fight multiple enemies
+
+there should also be a story to each level, but all the stories for each level should tie together somehow
