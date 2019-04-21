@@ -2,10 +2,9 @@
 # started on 04/17/2019
 # Joe
 
-<<<<<<< HEAD
-# Import player class
-import Player_Class
-=======
+
+
+
 #Import player class
 from Player_Class import Player
 
