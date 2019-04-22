@@ -47,7 +47,7 @@ def levelOne():
             break
 
     # sets players stats based on the role selected
-    if (role == "assassin"):
+    if role == "assassin":
         p1 = Player(name, Assassin, aHP, aAD, aDef)
         print('''You are an assassin.
                  Your stats are:''')
@@ -66,7 +66,7 @@ def levelOne():
     print("Now that we've got you set up, let's start our adventure.\n")
     #asks player if they wish to continue to level two
     start = input("Shall we?(y or n)\n")
-    if ('y' in start):
+    if 'y' in start:
         levelTwo()
     else:
         #player chose not to continue so offer player choice to change
@@ -75,12 +75,12 @@ def levelOne():
                 1. Change name
                 2. Change role
                 3. Quit\n''')
-        if(choice == '1'):
+        if choice == '1':
             p1.name = input('Enter your new name\n')
 
-        elif(choice == '2'):
+        elif choice == '2':
             p1.role = input('Enter your new role\n')
-            if(p1.role == "knight"):
+            if p1.role == "knight":
                 p1.HP = kHP
                 p1.AD = kAD
                 p1.Def = kDef
