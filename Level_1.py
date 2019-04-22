@@ -49,10 +49,18 @@ def levelOne():
     # sets players stats based on the role selected
     if (role == "assassin"):
         p1 = Player(name, Assassin, aHP, aAD, aDef)
-        print('you are an assassin')
+        print('''You are an assassin.
+                 Your stats are:''')
+        print("HP: " + p1.HP + "\n")
+        print("AD: " + p1.AD + "\n")
+        print("DEF: " + p1.Def + "\n")
     else:
         p1 = Player(name, Knight, kHP, kAD, kDef)
-        print('you are a knight')
+        print('''You are a knight.
+                 Your stats are:''')
+        print("HP: " + p1.HP + "\n")
+        print("AD: " + p1.AD + "\n")
+        print("DEF: " + p1.Def + "\n")
 
 
     print("Now that we've got you set up, let's start our adventure.\n")
@@ -72,6 +80,14 @@ def levelOne():
 
         elif(choice == '2'):
             p1.role = input('Enter your new role\n')
+            if(p1.role == "knight"):
+                p1.HP = kHP
+                p1.AD = kAD
+                p1.Def = kDef
+            else:
+                p1.HP = aHP
+                p1.AD = aAD
+                p1.Def = aDef
 
         else:
             print('Ok! See you later!')
