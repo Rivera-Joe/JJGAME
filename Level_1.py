@@ -17,23 +17,20 @@ from enemyClass import Enemy
 def levelOne():
 
     role = ' '
-    # stats for Knight
-    Knight = "Knight"
+  
+    
 
 #stats for Knight
-   
-
+    Knight = "Knight"
     kHP = 100
     kAD = 20
     kDef = 30
 
 
-    # stats for Assassin
-    Assassin = "Assasssin"
 
-#stats for Assassin
     
-
+#stats for Assassin
+    Assassin = "Assasssin"
     aHP = 50
     aAD = 50
     aDef = 10
@@ -57,24 +54,12 @@ def levelOne():
         p1 = Player(name, Knight, kHP, kAD, kDef)
         print('you are a knight')
 
+
     
-    role = input("Choose your role (Assassin or Knight )\n")
-    role.lower()
 
-#make sure player chooses correct role
-    if(role != "assassin" or role != "knight"):
-        role = input("Choose your role (Assassin or Knight )\n")
-        role.lower()
 
-#sets players stats based on the role selected
-    if(role == "assassin"):
-       p1 = Player(name, role, aHP, aAD, aDef)
-       #check assignment
-       print(p1.HP)
-    else:
-       p1 = Player(name, role, kHP, kAD, kDef)
-       print(p1.HP)
 
+    
 
 
 
