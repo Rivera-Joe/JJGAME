@@ -55,6 +55,27 @@ def levelOne():
         print('you are a knight')
 
 
+    print("Now that we've got you set up, let's start our adventure.\n")
+    #asks player if they wish to continue to level two
+    start = input("Shall we?(y or n)\n")
+    if ('y' in start):
+        levelTwo()
+    else:
+        #player chose not to continue so offer player choice to change
+        #information or quit the game
+        choice = input('''What would you like to do?
+                1. Change name
+                2. Change role
+                3. Quit\n''')
+        if(choice == '1'):
+            p1.name = input('Enter your new name\n')
+
+        elif(choice == '2'):
+            p1.role = input('Enter your new role\n')
+
+        else:
+            print('Ok! See you later!')
+
     
 
 
