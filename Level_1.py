@@ -51,16 +51,16 @@ def levelOne():
         p1 = Player(name, Assassin, aHP, aAD, aDef)
         print('''You are an assassin.
                  Your stats are:''')
-        print("HP: " + p1.HP + "\n")
-        print("AD: " + p1.AD + "\n")
-        print("DEF: " + p1.Def + "\n")
+        print("HP: " , p1.HP , "\n")
+        print("AD: " , p1.AD , "\n")
+        print("DEF: " , p1.Def , "\n")
     else:
         p1 = Player(name, Knight, kHP, kAD, kDef)
         print('''You are a knight.
                  Your stats are:''')
-        print("HP: " + p1.HP + "\n")
-        print("AD: " + p1.AD + "\n")
-        print("DEF: " + p1.Def + "\n")
+        print("HP: " , p1.HP , "\n")
+        print("AD: " , p1.AD , "\n")
+        print("DEF: " , p1.Def , "\n")
 
 
     print("Now that we've got you set up, let's start our adventure.\n")
