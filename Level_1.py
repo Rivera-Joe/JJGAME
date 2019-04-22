@@ -8,6 +8,9 @@
 #Import player class
 from Player_Class import Player
 
+#Import enemy class
+from enemyClass import Enemy
+
 
 
 
